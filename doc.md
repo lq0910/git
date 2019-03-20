@@ -32,3 +32,14 @@ HEAD、分支（branch）、标签（tag）都是指针，均直接或间接指�
 
   add ldconfig explain
   ```
+
+![gi5](https://cdn.loggerhead.me/images/git-branch-and-history.png)
+#.gitignore 文件
+.gitignore 文件包含一些模式，用以描述不想跟踪的文件。
+
+## 模式规则
+* 忽略空行 或 # 开头的行
+* 标准 glob 模式
+* / 开头避免递归
+* / 结尾表示目录
+* ! 开头表示反转该模式.
