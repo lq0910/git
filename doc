@@ -1,23 +1,23 @@
-基本原理
+#基本原理
 .gitignore 文件
-模式规则
+#####模式规则
 Glob 模式
-查看信息
-列出帮助信息 -- git help <command>
-列出文件状态 -- git status
-git status -s 示例
-查看提交历史 -- git log
-查看详细修改 -- git diff
-本地仓库
-创建仓库 -- git init [directory]
-跟踪文件 -- git add [<pathspec>...]
-删除文件 -- git rm <file>...
-重命名文件 -- git mv <source> <destination>
-状态变动
-暂存文件 -- git stage <pathspec>...
-取消暂存 -- git reset
-提交修改 -- git commit
-远程仓库
+#####查看信息
+> *列出帮助信息 -- git help <command>
+> *列出文件状态 -- git status
+> *git status -s 示例
+> *查看提交历史 -- git log
+> *查看详细修改 -- git diff
+#####本地仓库
+> *创建仓库 -- git init [directory]
+> *跟踪文件 -- git add [<pathspec>...]
+> *删除文件 -- git rm <file>...
+> *重命名文件 -- git mv <source> <destination>
+#####状态变动
+> *暂存文件 -- git stage <pathspec>...
+> *取消暂存 -- git reset
+> *提交修改 -- git commit
+#####远程仓库
 克隆远程仓库 -- git clone <repository> [<directory>]
 添加、删除、列出远程仓库 -- git remote
 列出远程仓库的所有引用 -- git ls-remote [<url>]
